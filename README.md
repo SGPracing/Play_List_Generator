@@ -7,8 +7,9 @@ Dataset: https://www.kaggle.com/lukaszamora/history-of-rock-19502020?select=hist
 To build a code with a multistep interaction with the user, so a play list can be generated afterwards, based on the 'History Of Rock' dataframe.
 
 ## Methods ##
-The dataset was of good quality, not needing any further specific cleaning. To achieve compatibility with https://soundiiz.com/, the column 'name' is renamed as 'title'.<br />
-The analysis and some columns chracterization was performed under *Python* and *Pandas*, and saved in new dataset to be manipulated. The characterized columns were 'valence', 'release_date', 'energy', 'danceability' and 'popuplarity'.
+The dataset was of very good quality, containing more than 5400 songs from the las 7 decades, not needing any further specific cleaning. To achieve compatibility with *Soundiiz* (https://soundiiz.com/), the column 'name' was renamed as 'title'.<br />
+The analysis and some columns chracterization was performed using *Pandas*, and saved in new dataset to be manipulated. The characterized columns were 'valence', 'release_date', 'energy', 'danceability' and 'popuplarity'.<br />
+Then, a function was built using *Python*, allowing several guided user inputs in order to create a custom playlist from the 'History Of Rock' dataframe.
 
 ## Categorizing columns ##
 In order to give the user the possibility to choose some of the charactristics of the tracks to be included in the play list, some relevant columns were choosen to be categorized, as follows:
