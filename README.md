@@ -48,7 +48,7 @@ After all choices have been made, a table with tracks title and respective artis
 Finally, the user is asked if the playlist should be saved. If so, a file *playlist.csv* is saved (with ';' separator). If the answer is negative, the user is aked if he/she would like to run the code again to generate a new list.
 
 ### Making use of the *playlist.csv* ###
-As a suggestion, the user may direct himself to https://soundiiz.com/tutorial, where he/she will be able to generate a playlist, from the *playlist.csv*, in his/her favorate interface (e.g. Spotfy).
+As a suggestion, the user may take advantage of **Soundiiz* (https://soundiiz.com/tutorial), free of charge, where a playlist can be generated from the *playlist.csv*, and further integrated within the user's favorite interface (e.g. Spotfy, iTunes etc).
 
 
 
