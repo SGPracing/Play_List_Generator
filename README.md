@@ -42,12 +42,12 @@ Afterwards, the choices follow the sequence: *release date, valence, energy, pop
 For the first three choices, the user is fisrtly asked if he/she wants to make that category a filter for the playlist. If a negative answer is given, the category is ignored for the purpose of the playlist, meaning that no track is excluded based on that specif category.<br />
 For *popularity* and *danceability*, the user is asked if those parameters (tracks being popular and/or suitable for dancing) is something that is of importance building the playlist. If a positive answer is given for each, only popular songs and dancebke songs will be included in the playlist, otherwise, no track would be excluded based on those categories.<br />
 
-### Generating the playlis ###
+### Generating the playlist ###
 
 After all choices have been made, a table with tracks title and respective artist is shown. This table is generated based on the number of tracks the user whisehd to have in the playlist, chosen at the begging. If the resulted dataframe has more tracks, the final list will be a sample based on the number of tracks chosen. Otherwise, it will show the entire resulted dataframe. <br />
 Finally, the user is asked if the playlist should be saved. If so, a file *playlist.csv* is saved (with ';' separator). If the answer is negative, the user is aked if he/she would like to run the code again to generate a new list.
 
-### Making use of the *playlis.csv* ###
+### Making use of the *playlist.csv* ###
 As a suggestion, the user may direct himself to https://soundiiz.com/tutorial, where he/she will be able to generate a playlist, from the *playlist.csv*, in his/her favorate interface (e.g. Spotfy).
 
 
