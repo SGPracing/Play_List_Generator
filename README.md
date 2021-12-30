@@ -18,5 +18,16 @@ The categorization was based on decades, from 1950s to 2010s (this last one incl
 The user is asked to choose a specific decade, following the input instructions.
 
 ### 2. Valence (valence) ###
-This column grades the 'mood' of the song. A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).<br />
+This column grades the 'mood' of the song. 'A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).'<br />
+These values where categorized in 3 braches using the 30% and 70% quantiles as cut offs.
+
+### 3. Energy (energy) ###
+In this collumns, 'a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.'<br />
+These values where also categorized in 3 braches using the 30% and 70% quantiles as cut offs.
+
+### 4. Danceability (danceability) ###
+'Describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.'<br />
+In this case, the 70% quantile cut off was used, meanig, songs over this quantile was considered suitable for dancing.
+
+### 5. 
 
